@@ -22,8 +22,8 @@ function loadBooks() {
     <p class="card-text"><em>${book.category}</em></p>
     <a href="#" class="btn btn-info" onclick=addToCart()>Add to Cart</a>
     <a href="#" class="btn btn-dark" onclick=removeCard()>Skip</a>
-  </div>
-</div>`;
+    </div>
+    </div>`;
       }
     })
     .catch((error) => {
